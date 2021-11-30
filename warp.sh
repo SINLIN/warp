@@ -290,7 +290,7 @@ Enable_WARP_Client_Proxy() {
 }
 
 Get_WARP_Proxy_Port() {
-    WARP_Proxy_Port='50000'
+    WARP_Proxy_Port='40000'
 }
 
 Print_Delimiter() {
@@ -1348,7 +1348,7 @@ SUBCOMMANDS:
     install         Install Cloudflare WARP Official Linux Client
     uninstall       uninstall Cloudflare WARP Official Linux Client
     restart         Restart Cloudflare WARP Official Linux Client
-    proxy           Enable WARP Client Proxy Mode (default SOCKS5 port: 50000)
+    proxy           Enable WARP Client Proxy Mode (default SOCKS5 port: 40000)
     unproxy         Disable WARP Client Proxy Mode
     wg              Configuration WARP Non-Global Network (with WireGuard), set fwmark or interface IP Address to use the WARP network
     wg4             Configuration WARP IPv4 Global Network (with WireGuard), all IPv4 outbound data over the WARP network
