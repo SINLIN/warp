@@ -7,7 +7,7 @@
 bash <(curl -fsSL git.io/warp.sh) menu
 ```
 
-修改版（默认socks5端口：50000）
+修改版（默认socks5端口：40000）
 ```javascript
 # Cloudflare WARP 一键配置脚本 功能菜单
 bash <(curl -fsSL https://sinlin.github.io/warp/warp.sh) menu
